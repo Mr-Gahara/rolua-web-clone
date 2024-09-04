@@ -1,0 +1,1 @@
+This website is only an imitation of rolua's tumblr website which was only made as a personal project for the purpose of learning and slicing a website, not for commercial purposes. please follow and visit the original artist: https://rolua.tumblr.com/

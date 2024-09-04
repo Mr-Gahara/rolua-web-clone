@@ -1,0 +1,157 @@
+.img-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 28px;
+    row-gap: 36px;
+
+}
+
+@media (min-width: 1500px) {
+    .img-row {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+@media (max-width: 765px) {
+    .img-row {
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 1px;
+    }
+}
+
+.img-row img {
+    width: 206px;
+    height: 206px;
+    object-fit: cover;
+}
+
+.img-row:hover img {
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.Archive {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.archive-title:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.slider {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.slider a {
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 4px;
+    font-family: Roboto;
+    text-decoration: none;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.profile {
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-name {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.6px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-icon {
+    border-radius: 360px;
+    width: 64px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
+.button img {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button div {
+    padding: 14px 14px;
+    border-radius: 360px;
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: rgba(207, 207, 207 ,0.5);
+}
+
+.social-icon {
+    border-color: rgba(207, 207, 207 ,1);
+}
+
+header {
+    margin-top: 20px;
+    margin-left: 1200px;
+    position: fixed;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.tumblr {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 15px;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.rNw-title, .archive-title{
+    text-decoration: none;
+    color: white;
+}
+
+.archive-title {
+    font-size: 14.4px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
